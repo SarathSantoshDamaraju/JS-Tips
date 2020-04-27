@@ -4,7 +4,7 @@
 
 # Interview Questions
 
-##### 1. What's the output?
+#### 1. What's the output?
 
 ```javascript
 for (let i = 0; i < 8; i++) {
@@ -12,12 +12,11 @@ for (let i = 0; i < 8; i++) {
 }
 ```
 
-##### Question Frequency : Common
-##### Difficulty : Beginners
+##### Question Frequency: Common
+##### Difficulty: Beginners
 
 <details><summary><b>Answer</b></summary>
 
-#### Answer: 
 ```javascript
 0
 1
@@ -34,7 +33,7 @@ for (let i = 0; i < 8; i++) {
 
 ---
 
-###### 2. What's the output?
+#### 2. What's the output?
 
 ```javascript
 for (var i = 0; i < 3; i++) {
@@ -44,7 +43,6 @@ for (var i = 0; i < 3; i++) {
 
 <details><summary><b>Answer</b></summary>
 
-#### Answer: 
 ```javascript
 8
 8

@@ -6,6 +6,8 @@
 
 Use **dictionary functions** as an alternative for `switch` case or nested `if` to reduce the `cyclomatic complexity` of the code.
 
+#### Example - 1 
+
 ```javascript
 
 function getEmoji(feelings) {
@@ -45,6 +47,8 @@ getEmoji('whatever'); // 🥳
 ```
 
 
+#### Example - 2
+
 ```javascript
 
 // 💡 There are mixed opinions about function usage.
@@ -79,3 +83,4 @@ const result = calculate(opr)(val1)(val2)
 // calculate('+')(2)(3)
 
 ```
+

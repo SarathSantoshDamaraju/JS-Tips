@@ -12,11 +12,11 @@ let shoppingList = ['✏️', '🎒', '📱', '🕶', '🥾'];
 // ❌ Least performant don't use it for pushing to array
 shoppingList = shoppingList.concat(['🍦'])
 
-// 1
-shoppingList.push('🍦');
-
-// 2
+// ⚠️ Airbnb lint throws error for this
 shoppingList[shoppingList.length] = '🍦';
+
+// ✅ This is better
+shoppingList.push('🍦');
 ```
 
 📊 Jsperf metrics [here](https://jsperf.com/pushing-to-arrays)

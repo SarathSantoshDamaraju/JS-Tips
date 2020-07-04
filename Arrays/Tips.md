@@ -4,8 +4,6 @@
 
 ### Pushing to array
 
-Don't use `Array.prototype.concat` to push the elements to `Arrays`. This is very costly if the arrays are large.
-
 ```javascript
 let shoppingList = ['✏️', '🎒', '📱', '🕶', '🥾'];
 
@@ -18,5 +16,7 @@ shoppingList[shoppingList.length] = '🍦';
 // ✅ This is better
 shoppingList.push('🍦');
 ```
+
+💡 Don't use `Array.prototype.concat` to push the elements to `Arrays`. This is very costly and might hang the browser if the array is larger.
 
 📊 Jsperf metrics [here](https://jsperf.com/pushing-to-arrays)
